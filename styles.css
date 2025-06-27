@@ -1,5 +1,5 @@
 header{
-    background-color: #1F2937 ;
+    background-color: #212e40 ;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -17,11 +17,11 @@ header{
     color: #FFFFFF;
 }
 .hero-section{
-    background-color: #1F2937;
+    background-color: #8593a6;
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
     padding: 40px;
 }
 .hero-text {
@@ -30,9 +30,9 @@ header{
 
 }
 .hero-image img{
-    width: 100%;
-    max-width: 400px;
-    height: 250px;
+    width: 120%;
+    max-width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -41,4 +41,31 @@ header{
     color: #FFFFFF;
     padding: 16px;
     border-radius: 8px;
+}
+.image-grid{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+}
+.image-section h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.image-item {
+    flex: 1;
+    text-align: center;
+}
+.image-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.image-item img:hover {
+    transform: scale(1.2);
+    z-index: 10;
+    position: relative;
 }
